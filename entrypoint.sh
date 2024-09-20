@@ -12,4 +12,5 @@ echo 'Attempting to run unit tests at location:' $1
 cd $1
 
 # Run unit tests
-ceedling test:all
+#ceedling test:all
+ceedling gcov:all utils:gcov
